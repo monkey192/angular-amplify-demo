@@ -1,0 +1,42 @@
+#layout-topbar {
+    background-color: hsl(198, 14%, 15%);
+    display: block;
+    padding: 0;
+    height: 3.25em;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1001;
+    box-shadow: 0 0.13em 0.31em 0 rgba(0,0,0,.3);
+    color: white;
+}
+
+#logo {
+    padding-left: 1.25em;
+    padding-top: 0.1em;
+    height: 3em;
+    vertical-align: middle;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    padding-right: 1.88em;
+    height: 100%;
+  }
+
+  .menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.63em;
+    margin-right: 0.63em;
+    color: white;
+    font-size: 1.6em;
+    transition: color .3s;
+    text-decoration: none;
+  }
